@@ -1,0 +1,179 @@
+
+## Generic Website Mockup PRD Prompt Template
+
+  
+
+**Project:** Static Website Mockup Generator
+
+**Industry Type:** [e.g., Jump House, Mechanic, Influencer]
+
+**Brand/Business Name (optional):** [e.g., Super Tots Inflatables]
+
+  
+
+***
+
+  
+
+### 1. Website Purpose
+
+  
+
+Create a **static HTML/CSS website** for a generic [Industry Type] business. The site should follow modern design standards for that industry, be compatible with GitHub Pages, and use placeholder content throughout.
+
+  
+
+***
+
+  
+
+### 2. Pages \& Sections
+
+  
+
+#### Home Page
+
+  
+
+- Header with business name/logo placeholder and main navigation
+
+- Hero section: Big headline and tagline describing the business
+
+- About section: Brief, industry-appropriate background summary
+
+- **Services** section: List 3–6 core services, each linking to a dedicated Service Detail page
+
+- **Google Reviews**: Show 3–5 sample Google reviews with realistic styling (use placeholders if not live)
+
+- **Google Map Location**: Embed a static map (or map placeholder) with the business address
+
+- (Optional) Testimonials or sample client logos
+
+- Footer with contact info and generic links
+
+  
+  
+
+#### Service Detail Page (one per service)
+
+  
+
+- Service name/title
+
+- Description (industry-appropriate)
+
+- Visual (image or icon placeholder)
+
+- Pricing or call-to-action button
+
+- Link back to main Services section
+
+  
+  
+
+#### Contact Page
+
+  
+
+- Business address, phone, and email placeholders
+
+- Contact form (static only)
+
+- Static/embedded map showing business location
+
+  
+
+***
+
+  
+
+### 3. Design \& Technical Guidelines
+
+  
+
+- **No gradients:** Flat color palette only; use colors fitting the selected industry
+
+- **Modern, minimal layout** with clear sections and spacing
+
+- **Navigation:** Persistent/top, simple style
+
+- **Typography:** Industry-appropriate Google or web-safe fonts
+
+- **Accessibility:** Semantic HTML, proper contrast, alt text for images
+
+- **File structure:**
+
+  
+
+```
+
+/index.html
+
+/services/
+
+    service1.html
+
+    service2.html
+
+    ...
+
+/contact.html
+
+/assets/
+
+    /css/
+
+    /images/
+
+```
+
+  
+  
+
+***
+
+  
+
+### 4. Industry-Specific Styling [Describe style, colors, and tone appropriate for the industry, e.g. “Bright playful colors, fun curved fonts for Jump House”]
+
+  
+  
+
+***
+
+  
+
+### 5. Google Reviews \& Map (Static)
+
+  
+
+- Google Reviews: Show realistic static review cards (written and styled like real Google reviews)
+
+- Google Map: Display a static or simulated embedded map with business address, and a pin
+
+  
+
+***
+
+  
+
+### [Add any optional instructions or customization fields required for this mockup.]
+
+  
+  
+
+***
+
+  
+
+**Prompt Example**
+
+> Generate a modern, static HTML website mockup for a [Mechanic] business called [Joe’s Auto Repair]. Follow the above PRD and template, using bold, strong colors, flat design, mechanical icons, and professional fonts. Add 4 sample services (each with detail pages), a static reviews section styled like Google reviews, and a static map with the business address. No JS or gradients; optimize for GitHub Pages.
+
+  
+
+***
+
+  
+
+You can reuse this template and fill in the [bracketed fields] for any industry or business type to guide your AI assistant.

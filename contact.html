@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact CarterLaw25 for professional legal consultation. Call (555) 123-LAWS or visit our office at 123 Legal Plaza.">
+    <title>Contact Us - CarterLaw25</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1 class="logo"><a href="index.html">CarterLaw25</a></h1>
+                <span class="tagline">Professional Legal Services</span>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#services" class="nav-link">Services</a>
+                <a href="index.html#reviews" class="nav-link">Reviews</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Contact Us</h1>
+            <p class="page-subtitle">Get in touch for a free consultation</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="practiceArea">Practice Area</label>
+                            <select id="practiceArea" name="practiceArea">
+                                <option value="">Select a practice area</option>
+                                <option value="personal-injury">Personal Injury</option>
+                                <option value="family-law">Family Law</option>
+                                <option value="estate-planning">Estate Planning</option>
+                                <option value="business-law">Business Law</option>
+                                <option value="criminal-defense">Criminal Defense</option>
+                                <option value="real-estate">Real Estate Law</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Please describe your legal matter..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I consent to CarterLaw25 contacting me about my legal matter. *</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper">
+                    <h2 class="section-title">Get in Touch</h2>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Office Address</h4>
+                                <p>123 Legal Plaza, Suite 500<br>Downtown District, ST 12345</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone Number</h4>
+                                <p><a href="tel:555-123-5297">(555) 123-LAWS</a></p>
+                                <p class="contact-note">24/7 Emergency Line Available</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Address</h4>
+                                <p><a href="mailto:info@carterlaw25.com">info@carterlaw25.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Office Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                   Saturday: 9:00 AM - 2:00 PM<br>
+                                   Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="consultation-cta">
+                        <h3>Free Initial Consultation</h3>
+                        <p>We offer a free 30-minute consultation to discuss your legal matter and how we can help.</p>
+                        <a href="tel:555-123-5297" class="btn btn-secondary">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="contact-map">
+        <div class="container">
+            <h2 class="section-title">Find Our Office</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>CarterLaw25 Office Location</h3>
+                    <p>123 Legal Plaza, Suite 500<br>Downtown District, ST 12345</p>
+                    <div class="map-directions">
+                        <p><strong>Parking:</strong> Validated parking available in the building garage</p>
+                        <p><strong>Public Transit:</strong> Blue Line Metro - Legal District Station (2 blocks)</p>
+                        <p><strong>Accessibility:</strong> Fully wheelchair accessible with elevator access</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">CarterLaw25</h3>
+                    <p class="footer-description">Professional legal services with integrity, dedication, and results.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Practice Areas</h4>
+                    <ul class="footer-links">
+                        <li><a href="services/personal-injury.html">Personal Injury</a></li>
+                        <li><a href="services/family-law.html">Family Law</a></li>
+                        <li><a href="services/estate-planning.html">Estate Planning</a></li>
+                        <li><a href="services/business-law.html">Business Law</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Legal Plaza, Suite 500</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-LAWS</p>
+                        <p><i class="fas fa-envelope"></i> info@carterlaw25.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Office Hours</h4>
+                    <div class="office-hours">
+                        <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                        <p>Saturday: 9:00 AM - 2:00 PM</p>
+                        <p>Sunday: Closed</p>
+                        <p class="emergency-note">Emergency consultations available 24/7</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 CarterLaw25. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

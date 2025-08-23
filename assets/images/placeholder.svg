@@ -1,0 +1,81 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <defs>
+        <pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="4" height="4">
+            <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" style="stroke:#e2e8f0, stroke-width:0.5"/>
+        </pattern>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="400" height="300" fill="#f7fafc"/>
+    
+    <!-- Pattern overlay -->
+    <rect width="400" height="300" fill="url(#diagonalHatch)"/>
+    
+    <!-- Border -->
+    <rect width="400" height="300" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+    
+    <!-- Legal scales icon -->
+    <g transform="translate(180, 120)">
+        <!-- Scale base -->
+        <rect x="15" y="35" width="10" height="4" fill="#d69e2e" rx="2"/>
+        
+        <!-- Scale pole -->
+        <rect x="18.5" y="10" width="3" height="30" fill="#1a365d"/>
+        
+        <!-- Scale beam -->
+        <rect x="5" y="10" width="30" height="2" fill="#1a365d" rx="1"/>
+        
+        <!-- Left scale pan -->
+        <ellipse cx="10" cy="15" rx="8" ry="2" fill="none" stroke="#2d3748" stroke-width="1.5"/>
+        <line x1="10" y1="12" x2="10" y2="15" stroke="#2d3748" stroke-width="1"/>
+        
+        <!-- Right scale pan -->
+        <ellipse cx="30" cy="15" rx="8" ry="2" fill="none" stroke="#2d3748" stroke-width="1.5"/>
+        <line x1="30" y1="12" x2="30" y2="15" stroke="#2d3748" stroke-width="1"/>
+        
+        <!-- Connection lines -->
+        <line x1="10" y1="12" x2="15" y2="10" stroke="#2d3748" stroke-width="1"/>
+        <line x1="30" y1="12" x2="25" y2="10" stroke="#2d3748" stroke-width="1"/>
+    </g>
+    
+    <!-- Document icon -->
+    <g transform="translate(160, 180)">
+        <!-- Document body -->
+        <rect x="0" y="0" width="20" height="26" fill="#ffffff" stroke="#2d3748" stroke-width="1.5" rx="1"/>
+        
+        <!-- Folded corner -->
+        <path d="M 15 0 L 15 5 L 20 5 Z" fill="#e2e8f0" stroke="#2d3748" stroke-width="1"/>
+        <line x1="15" y1="0" x2="15" y2="5" stroke="#2d3748" stroke-width="1"/>
+        <line x1="15" y1="5" x2="20" y2="5" stroke="#2d3748" stroke-width="1"/>
+        
+        <!-- Text lines -->
+        <line x1="3" y1="10" x2="12" y2="10" stroke="#d69e2e" stroke-width="1.5"/>
+        <line x1="3" y1="13" x2="17" y2="13" stroke="#4a5568" stroke-width="1"/>
+        <line x1="3" y1="16" x2="14" y2="16" stroke="#4a5568" stroke-width="1"/>
+        <line x1="3" y1="19" x2="16" y2="19" stroke="#4a5568" stroke-width="1"/>
+        <line x1="3" y1="22" x2="11" y2="22" stroke="#4a5568" stroke-width="1"/>
+    </g>
+    
+    <!-- Gavel icon -->
+    <g transform="translate(220, 175)">
+        <!-- Gavel head -->
+        <rect x="0" y="8" width="12" height="6" fill="#d69e2e" rx="3"/>
+        
+        <!-- Gavel handle -->
+        <rect x="8" y="14" width="2" height="15" fill="#8b4513" rx="1"/>
+        
+        <!-- Sound block -->
+        <rect x="12" y="25" width="8" height="4" fill="#1a365d" rx="2"/>
+    </g>
+    
+    <!-- Placeholder text -->
+    <text x="200" y="260" text-anchor="middle" fill="#4a5568" font-family="Inter, sans-serif" font-size="12" font-weight="500">
+        Professional Legal Image
+    </text>
+    
+    <!-- Decorative elements -->
+    <circle cx="120" cy="80" r="2" fill="#d69e2e" opacity="0.6"/>
+    <circle cx="280" cy="100" r="1.5" fill="#1a365d" opacity="0.4"/>
+    <circle cx="340" cy="250" r="2.5" fill="#d69e2e" opacity="0.3"/>
+    <circle cx="60" cy="220" r="1.8" fill="#1a365d" opacity="0.5"/>
+</svg>
