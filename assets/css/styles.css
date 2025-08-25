@@ -167,6 +167,19 @@ a:hover {
 
 .nav-brand {
     display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-text {
+    display: flex;
     flex-direction: column;
 }
 
