@@ -118,14 +118,15 @@ a:hover {
 }
 
 .btn-secondary {
-    background-color: transparent;
-    color: var(--primary-navy);
+    background-color: #4E0D2F;
+    color: var(--white);
     border-color: var(--primary-navy);
 }
 
 .btn-secondary:hover {
-    background-color: var(--primary-navy);
-    color: var(--white);
+    background-color: transparent;
+    color: #4E0D2F;
+    border-color: #4E0D2F;
 }
 
 .btn-urgent {
