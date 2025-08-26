@@ -279,6 +279,16 @@ a:hover {
     border-radius: var(--border-radius);
 }
 
+@media (max-width: 768px) {
+    .hero-title,
+    .hero-subtitle,
+    .hero-cta {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+    }
+}
 /* Service Hero */
 .service-hero {
     background: linear-gradient(135deg, var(--primary-navy) 0%, var(--secondary-navy) 100%);
