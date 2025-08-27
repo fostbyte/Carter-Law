@@ -1218,30 +1218,31 @@ a:hover {
         --section-padding: 60px 0;
     }
     
-    .nav-menu {
-        display: flex;
-        list-style: none;
-        gap: 2rem;
-        position: fixed;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: var(--white);
-        flex-direction: column;
-        padding: 2rem;
-        box-shadow: var(--shadow-lg);
-        transform: translateY(-100%);
-        opacity: 0;
-        visibility: hidden;
-        transition: var(--transition);
-        z-index: 9999;
-    }
-    
-    .nav-menu.active {
-        transform: translateY(0);
-        opacity: 1;
-        visibility: visible;
-    }
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: fixed;
+    top: 0;              /* anchor to top of screen */
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-100%); /* hidden above the viewport */
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+    z-index: 1001;
+}
+
+.nav-menu.active {
+    transform: translateY(0);  /* slide down into view */
+    opacity: 1;
+    visibility: visible;
+    z-index: 10000;
+}
+
     
     .nav-toggle {
         display: block;
